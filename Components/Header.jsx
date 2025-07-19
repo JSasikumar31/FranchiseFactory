@@ -21,6 +21,7 @@ const Header = () => {
                         <input type="email"  placeholder='Enter Your Email' className='pl-4 outline-none'/>
                         <button type='submit' className='border-l border-black py-4 px-4 sm:px-8 active:bg-gray-600 active:text-white '>Subscribe</button>
                     </form>
+              <Link href="/admin"><button   type='submit' className='border p-4 rounded-full  border-black mt-10 sm:px-8 active:bg-gray-600 active:text-white  '>Upload Here!</button></Link> 
             </div>
     </div>
   )
